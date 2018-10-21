@@ -1,0 +1,163 @@
+body {
+  font-family: 'MS UI Gothic',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+  margin: 0;
+}
+
+img {
+  width: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: #ffad5b;
+  height: 70px;
+}
+
+.nav {
+  text-align: center;
+  margin-bottom:10px;
+}
+
+.nav li {
+  display:inline-block;
+  font-size:18px;
+}
+
+.nav li:hover {
+  background:#fff;
+}
+
+.nav a {
+  color: #ffff;
+  display:block;
+  line-height:70px;
+  margin: 0 20px;
+  padding: 0 25px;
+}
+
+.nav a:hover {
+  color: #ffad5b;
+}
+
+.top-logo {
+  height: 200px;
+  text-align: center;
+  position:relative:
+}
+
+.top-logo a {
+ display: block;
+ position:absolute;
+ top: 140px;
+ left: 400px;
+}
+
+#logo {
+  display:none; 
+}
+
+.contents {
+  background: #eee;
+  height: 800px;
+  padding:0 80px;
+}
+
+.text {
+width: 600px;
+float:right;
+padding-left: 40px;
+/* text-align:center; */
+}
+
+.text h2 {
+  font-weight: normal;
+}
+
+.text h1 {
+  font-size:45px;
+  margin-bottom:0;
+}
+
+. text p {
+  text-align:left;
+}
+
+.news {
+  background: #eee;
+  border-top: 1px solid #a9a9a9;
+  height:500px;
+  padding: 0 200px;
+}
+
+.news h1 {
+  text-align: center;
+}
+
+.message {
+  border-radius: 10px;
+  background: #fff;
+  overflow:scroll;
+  width: 800px;
+  height: 300px;
+  margin-left:100px;
+}
+
+footer {
+  background:#ffad5b;
+  height: 220px;
+
+}
+
+.footer-left {
+  font-size: 18px;
+  padding: 20px 20px 0 20px;
+  float:left;
+}
+
+.footer-left a {
+  text-decoration: none;
+  color: #fff;
+  display:block;
+  line-height: 35px;
+  display:inline-block;
+}
+
+.footer-left a:hover {
+  opacity:0.5;
+}
+
+.footer-right {
+  float:right;
+  padding: 40px 40px 0px 40px;
+  magin-bottom:0;
+
+}
+
+.bnt {
+  padding: 8px 24px;
+  background: #fff;
+  display:inline-block;
+}
+
+.twitter {
+  color:#55acee;
+}
+
+.facebook {
+  color: #3b5998;
+  margin-left: 20px;
+}
+
+.footer-right p {
+  padding-top:100px;
+  margin-bottom:0;
+}
