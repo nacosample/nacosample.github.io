@@ -1,0 +1,230 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,"游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box
+  }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.w1000 {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.flex_box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header_top {
+  padding: 25px 10px;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #333;
+}
+
+.header_img {
+  background-image: url(../img/top.jpg);
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 75px);
+  position: relative;
+}
+
+.header_img p {
+  font-size: 40px;
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+.main h2 {
+  padding: 50px 0;
+  font-size: 35px;
+  letter-spacing: 5px;
+}
+
+.main p {
+  font-size: 18px;
+  line-height: 33px;
+  margin-bottom: 30px;
+}
+
+
+#scene1 {
+  background: #efefef;
+}
+
+.title {
+  font-size: 25px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#scene1 p {
+  margin: 27px 0;
+  line-height: 27px;
+}
+
+#scene2 .flex_box {
+  margin-bottom: 30px;
+}
+
+#scene2 p {
+  margin: 27px 0;
+  line-height: 27px;
+  letter-spacing: 2px;
+}
+
+.scene2_innar {
+  background-image: url(../img/innar.jpg);
+  background-size: cover;
+  background-position: center;
+  height: calc(85vh - 60px);
+}
+
+.scene2_innar p {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 30px 40px;
+  font-size: 18px;
+}
+
+#scene3 {
+  padding-bottom: 40px;
+}
+
+#scene3 h4{
+  font-size: 20px;
+  border-bottom: 1px solid #333;
+  margin-bottom: 20px;
+}
+
+#scene3 ul {
+  padding: 0;
+}
+
+#scene3 li {
+  line-height: 29px;
+}
+
+footer {
+  text-align: center;
+}
+
+.btn-wrapper {
+  padding: 40px 0;
+  background-color: #f6f6f6;
+}
+.btn {
+  display: inline-block;
+  color: #fff;
+  padding: 8px 64px;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  opacity: 1;
+  color: #fff;
+}
+
+.fab {
+  margin-right: 4px;
+}
+
+.facebook {
+  border: 1px solid #3b5998;
+  color: #3b5998;
+}
+
+.facebook:hover {
+  color: #fff;
+  background-color: #3b5998;
+}
+
+.twitter {
+  border: 1px solid #55acee;
+  color: #55acee;
+}
+
+.twitter:hover {
+  color: #fff;
+  background-color: #55acee;
+}
+
+.line {
+  border: 1px solid #00B900;
+  color: #00B900;
+}
+
+.line:hover {
+  color: #fff;
+  background-color: #00B900;
+}
+
+.copy {
+  background-color: #939899;
+  padding: 80px 30px;
+  color: #fff;
+}
+
+@media (max-width: 670px){
+
+.header_img  p {
+  top: 45%;
+  left: 20%;
+}
+
+.main h2 {
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.main p {
+  font-size: 16px;
+}
+
+  .order1 {
+    order: 1;
+  }
+
+  .order2 {
+    order: 2;
+  }
+
+.scene2_innar {
+  height: 100%;
+}
+
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
